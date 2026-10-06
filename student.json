@@ -1,0 +1,9 @@
+{
+  "studentId": 1001,
+  "firstName": "Paniz",
+  "lastName": "Khooshani",
+  "major": "Multimedia",
+  "university": "Pars University of Architecture and Art",
+  "isActive": true,
+  "courses": ["C# Programming", "Web Design"]
+}

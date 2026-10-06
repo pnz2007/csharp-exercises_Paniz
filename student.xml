@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+  <studentId>1001</studentId>
+  <firstName>Paniz</firstName>
+  <lastName>Khooshani</lastName>
+  <major>Multimedia</major>
+  <university>Pars University of Architecture and Art</university>
+  <isActive>true</isActive>
+  <courses>
+    <course>C# Programming</course>
+    <course>Web Design</course>
+  </courses>
+</student>
