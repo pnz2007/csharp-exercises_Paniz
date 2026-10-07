@@ -34,7 +34,7 @@
 
 صفت (Property) یعنی ویژگی‌هایی که یه چیز داره، و رفتار (Method) یعنی کارهایی که اون چیز می‌تونه انجام بده. مثلاً یه گربه رنگ داره (صفت) و میو می‌کنه (رفتار).
 
-پرانتز جلوی اسم رفتارها یعنی اون یه متده. کد این کلاس‌ها توی فایل Classes.cs هم هست.
+پرانتز جلوی اسم رفتارها یعنی اون یه متده. کد هر کلاس توی پوشه‌ی Tamrin02 و توی یه فایل جدا قرار داره و توی فایل Program.cs از هر کدوم یه نمونه ساختیم.
 
 ### مشتری (Customer)
 
@@ -101,7 +101,7 @@ Employee
 ```text
 Rectangle
   Properties: Width, Height, Color
-  Methods:    CalculateArea(), CalculatePerimeter(), Resize()
+  Methods:    CalculateArea(), CalculatePerimeter(), Resize(newWidth, newHeight)
 ```
 
 <div dir="rtl">
@@ -115,7 +115,7 @@ Rectangle
 ```text
 Square
   Properties: Side, Color
-  Methods:    CalculateArea(), CalculatePerimeter(), Resize()
+  Methods:    CalculateArea(), CalculatePerimeter(), Resize(newSide)
 ```
 
 <div dir="rtl">
@@ -297,7 +297,7 @@ GET https://api.github.com/users/octocat
 
 ### سؤال پنجم: اطلاعات یه Student با JSON و XML
 
-این دو تا به‌صورت فایل جدا (student.json و student.xml) هم توی همین پوشه هستن.
+این دو تا به‌صورت فایل جدا (student.json و student.xml) هم توی پوشه‌ی Tamrin02 هستن.
 
 نمایش با JSON:
 
